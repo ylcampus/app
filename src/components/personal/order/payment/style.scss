@@ -1,0 +1,42 @@
+/*支付页面*/
+#Payment{
+  /*订单信息*/
+  #orderSection{
+    margin-top: 55px;
+    background: #fff;
+    padding: 5px 15px 10px 15px;
+    .amonut{
+      display: flex;
+      display: -webkit-flex;
+      height:30px;
+      font-size: 14px;
+      align-items: center;
+      justify-content: space-between;
+      .total{
+        color: #e31436;
+        font-weight: bold;
+        font-size: 15px;
+      }
+    }
+    .address{
+      font-size: 14px;
+      color:#666;
+      line-height: 20px;
+      span.dark{
+        font-weight: bold;
+        color: #333;
+      }
+    }
+  }
+  /*支付方式*/
+  #payWay{
+    margin-top:5px;
+    .waySelect{
+      color: #8f8f94;
+      background-color: #efeff4;
+      font-size: 16px;
+      line-height: 48px;
+      padding:0px 15px;
+    }
+  }
+}

@@ -1,0 +1,80 @@
+/*索引页*/
+#IDX{
+  /*页头*/
+  #idxHeader{
+    background: #fff;
+    display: flex;
+    display: -webkit-flex;
+    height: 46px;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    z-index: 9999;
+    opacity: 0.9;
+    .logo{
+      margin-left: 10px;
+      .mall_name{
+        margin-left: 5px;
+        font-size: 15px;
+      }
+    }
+    .logo:before{
+      content: "";
+      display: inline-block;
+      vertical-align: middle;
+      width: 20px;
+      height: 22px;
+      background: url(../../../static/frame/icon_home_gray.png) no-repeat;
+      background-size: 20px 20px;
+      background-position: 0px -1px;
+    }
+    .search{
+      width: calc(100% - 140px);
+      .search_input{
+        input{
+          font-size: 15px;
+          color: #333;
+          height: 30px;
+          text-align: left;
+          border-radius: 2px;
+          outline: none;
+          background: url(../../../static/frame/icon_search.png) no-repeat 10px center;
+          background-size: 18px 18px;
+          background-color: #eaeaea;
+          border: 0;
+          padding-left: 30px;
+          width: calc(100% - 30px);
+        }
+      }
+    }
+    .login{
+      margin-right: 10px;
+      .center-icon{
+        background-image: url(../../../static/frame/icn_my_top_bar_@3x.png);
+        display: inline-block;
+        width: 20px;
+        height: 20px;
+        background-position: 100% 100%;
+        background-repeat: no-repeat;
+        background-size: contain;
+      }
+    }
+  }
+  /*页脚*/
+  #idxFooter{
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    height: 58px;
+    background: #fff;
+    box-shadow: 0 0 10px 0 hsla(0,6%,58%,.6);
+    -webkit-box-shadow: 0 0 10px 0 hsla(0,6%,58%,.6);
+    .mint-tabbar > .mint-tab-item.is-selected{
+      color: #ca151e;
+    }
+  }
+}

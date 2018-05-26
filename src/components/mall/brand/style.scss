@@ -1,0 +1,135 @@
+#Brand{
+  margin-top: 55px;
+  .brandinfo{
+    margin-bottom: 10px;
+    background: #fff;
+    .tripimg{
+      width: 100%;
+      vertical-align: middle;
+    }
+    .info{
+      padding: 0 10px;
+      height: 50px;
+      zoom: 1;
+      table{
+        table-layout: fixed;
+        width: 100%;
+        border-collapse: collapse;
+        border-spacing: 0;
+        .logobox{
+          position: relative;
+          .logocase{
+            top: -11px;
+            position: absolute;
+            width: 60px;
+            height: 60px;
+            border: 1px solid #f0f0f0;
+            text-align: center;
+            vertical-align: middle;
+            background: #fff;
+            overflow: hidden;
+            img{
+              width: 100%;
+            }
+          }
+          .brandnamebox{
+            vertical-align: bottom;
+            width: 180px;
+            margin-left: 70px;
+            padding-top: 10px;
+            .brandname{
+              color: #333;
+              font-size: 14px;
+              display: block;
+              width: 100%;
+              height: 21px;
+              overflow: hidden;
+              white-space: nowrap;
+              text-overflow: ellipsis;
+            }
+            .saledesc{
+              color: #999;
+              .onsalecount{
+                color: #e31436;
+                font-weight: bold;
+              }
+            }
+          }
+        }
+        .favbox{
+          width: 50px;
+          vertical-align: bottom;
+          height: 50px;
+          text-align: right;
+          .fbox{
+            display: inline-block;
+            text-align: center;
+            width: 36px;
+            .btn{
+              border-radius: 11px;
+              width: 22px;
+              height: 22px;
+              background: #fff;
+              line-height: 14px;
+            }
+            .favbtn{
+              display: inline-block;
+              color: #e31436;
+              background: url(../../../../static/main/carebtn.png);
+              background-size: 100% 100%;
+            }
+          }
+          .favcount{
+            text-align: center;
+            color: #666;
+          }
+        }
+      }
+    }
+  }
+  .brand{
+    margin-top: 20px;
+    padding-bottom: 15px;
+    padding: 0 10px;
+    .title{
+      margin-bottom: 5px;
+      img{
+        width: 15px;
+        height: 15px;
+        vertical-align: middle;
+      }
+      span.country{
+        display: inline-block;
+        margin-left: 5px;
+        vertical-align: middle;
+      }
+    }
+    .m-detailshort{
+      position: relative;
+      padding-bottom: 5px;
+      .detailshort-2{
+        visibility: hidden;
+        position: absolute;
+        left: -9999px;
+        width: 100%;
+        line-height: 18px;
+      }
+    }
+    .morebtn{
+      padding-bottom: 5px;
+      text-align: center;
+      .u-descopen{
+        display: inline-block;
+        width: 20px;
+        height: 20px;
+        vertical-align: middle;
+        background: url(../../../../static/main/personal.png);
+        background-position: -70px -269px;
+        background-size: 112px;
+      }
+    }
+  }
+  #j-stickybar-wrap{
+    background:#fff;
+  }
+}

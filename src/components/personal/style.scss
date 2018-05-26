@@ -1,0 +1,31 @@
+#PersonalFrame{
+  /*页头*/
+  #PersonalFrameHeader{
+    background: #fff;
+    display: flex;
+    display: -webkit-flex;
+    align-items: center;
+    height: 50px;
+    padding: 0px 15px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    z-index: 9999;
+    a#btn-back{
+      width: 25px;
+      height: 25px;
+      background: transparent url(../../../static/main/icon_back.png) scroll no-repeat center;
+      background-size: 25px 25px;
+    }
+    h1#pageTitle{
+      color: #333;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      overflow: hidden;
+      font-size: 16px;
+      margin-left: 5px;
+      font-weight: normal;
+    }
+  }
+}

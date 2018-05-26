@@ -1,0 +1,37 @@
+#Regbyphone{
+  #baseAgrBox{
+    padding: 15px 16px;
+    color: #000;
+    font-size: 18px;
+    text-align: center;
+    border-bottom: 2px solid rgba(0,0,0,0.1);
+  }
+  .wrapRegister-padding16{
+    padding: 16px 0px;
+  }
+  .registerContent{
+    width: 100%;
+    min-width: 0;
+    padding: 5px 0;
+    margin: 0 auto;
+    width: 90%;
+    min-width: 300px;
+    .dinput-UI5{
+      padding: 0 16px;
+      border-radius: 5px;
+      min-height: 40px;
+      background-color: #EFEFEF;
+      &>input{
+        width: 100%;
+        height: 40px;
+        border: none;
+        background-color: transparent;
+        outline: none;
+        padding: 0;
+        line-height: 1.3;
+        font-size: 15px;
+        color: black;
+      }
+    }
+  }
+}

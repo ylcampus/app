@@ -1,0 +1,45 @@
+/*收货地址*/
+#Address{
+  /*收货地址信息*/
+  #addressMsg{
+    padding:0px 15px;
+    margin-top: 55px;
+    background: #fff;
+    .title{
+      display: flex;
+      display: -webkit-flex;
+      height: 40px;
+      align-items: center;
+      .newBtn{
+        width: 49px;
+        border: 1px solid #d22147;
+        border-radius: 3px;
+        color: #d22147;
+        line-height: 20px;
+        text-align: center;
+        font-size: 13px;
+        background: #fff;
+      }
+    }
+    .content{
+      border-top: 1px solid #ddd;
+      padding-bottom: 10px;
+      .userMsg{
+        display: flex;
+        display: -webkit-flex;
+        height:40px;
+        align-items: center;
+        justify-content: space-between;
+        font-size: 15px;
+        color:#333;
+      }
+      .address{
+        font-size: 14px;
+      }
+    }
+  }
+  /*公共*/
+  section{
+    margin-bottom: 5px;
+  }
+}

@@ -1,0 +1,174 @@
+/*售后服务页面*/
+#AfterSale{
+  /*服务类型*/
+  #serviceType{
+    margin-top: 55px;
+    background: #fff;
+    padding: 10px 15px;
+    .type{
+      font-size: 14px;
+      font-weight: bold;
+      line-height: 30px;
+    }
+    .inner{
+      display: flex;
+      display: -webkit-flex;
+      align-items: center;
+      .item{
+        line-height: 25px;
+        width: 80px;
+        text-align: center;
+        border: 1px solid #ddd;
+        border-radius: 3px;
+        color: #666;
+        margin-right:5px;
+      }
+      .item.active{
+        border: 1px solid #ca151e;
+        color: #ca151e;
+      }
+    }
+  }
+  /*商品信息*/
+  #goodsMsg{
+    background: #fff;
+    .header{
+      position: relative;
+      display: flex;
+      display: -webkit-flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 40px;
+      padding:0px 15px;
+      font-size: 13px;
+      .mall{
+        .mall_name{
+          margin-left:5px;
+        }
+      }
+      .mall:before{
+        content: '';
+        display: inline-block;
+        vertical-align: middle;
+        width: 16px;
+        height: 30px;
+        background: url(../../../../../static/main/order_shopBar_v2.png) no-repeat -20px 8px;
+        background-size: 35px 15px;
+        background-position: 0 6px;
+      }
+      .num{
+        color:#888;
+      }
+    }
+    .goods{
+      margin: 0px 15px;
+      border-top: 1px solid #ddd;
+      display: flex;
+      display: -webkit-flex;
+      justify-content: space-between;
+      padding: 10px 0px 5px 0px;
+      .inner{
+        display: flex;
+        display: -webkit-flex;
+        .good_img{
+          width:60px;
+          img{
+            width:100%;
+          }
+        }
+        .detail{
+          width: 80%;
+          padding-left: 5px;
+          .good_name{
+            font-size: 12px;
+            color:#333;
+          }
+          .sku_coll{
+            color:#666;
+          }
+        }
+      }
+      .num_msg{
+        text-align: right;
+        display: flex;
+        display: -webkit-flex;
+        flex-direction: column;
+      }
+    }
+  }
+  /*问题描述*/
+  #questionDesc{
+    background: #fff;
+    padding: 10px 15px;
+    margin-bottom: 0px;
+    .title{
+      font-size: 14px;
+      font-weight: bold;
+      line-height: 30px;
+    }
+    .textarea-wrapper{
+      background: #f8f8f8;
+      border-radius: 4px;
+      padding: 10px 10px 0px 10px;
+      color: #232326;
+      font-size: 12px;
+      textarea{
+        background: #f8f8f8;
+        width: 100%;
+        height: 100px;
+        border: 0;
+        resize: none;
+        outline: none;
+      }
+      .count{
+        text-align: right;
+        line-height: 20px;
+      }
+    }
+  }
+  /*寄回地址*/
+  #backAddress{
+    &>.title{
+      line-height: 30px;
+      font-size: 14px;
+      padding:0px 15px;
+    }
+    .content{
+      background: #fff;
+      padding:10px 15px;
+      .row{
+        display: flex;
+        display: -webkit-flex;
+        align-items: center;
+        height:30px;
+        font-size: 14px;
+        color:#666;
+        .title{
+          width:80px;
+        }
+        .detail{
+          color:#333;
+          width: 100%;
+        }
+      }
+    }
+  }
+  /*提交信息*/
+  #submitMsg{
+    &>.tip{
+      font-size: 12px;
+      color: #888;
+      text-align: center;
+    }
+    .submit{
+      padding: 5px 10px;
+      .mint-button--normal{
+        width:100%;
+      }
+    }
+  }
+  /*公共*/
+  section{
+    margin-bottom: 5px;
+  }
+}

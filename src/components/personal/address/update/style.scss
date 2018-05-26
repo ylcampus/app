@@ -1,0 +1,27 @@
+/*收货地址*/
+#AddressUpdate{
+  /*收货地址信息*/
+  #addressMsg{
+    margin-top:55px;
+    background: #fff;
+    padding:0px 15px;
+    .mint-cell-wrapper{
+      font-size: 14px;
+    }
+  }
+  /*保存收货地址*/
+  #saveBtn{
+    position: fixed;
+    bottom: 0px;
+    left:0px;
+    right:0px;
+    padding: 5px 10px;
+    .mint-button--normal{
+      width:100%;
+    }
+  }
+  /*公共*/
+  section{
+    margin-bottom: 5px;
+  }
+}

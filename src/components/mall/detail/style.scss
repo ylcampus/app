@@ -1,0 +1,186 @@
+#GoodsDetail{
+  margin-top: 55px;
+  /*商品基本信息*/
+  #proBasicMSg{
+    position: relative;
+    /*图片信息*/
+    .g_img{
+      background: #fff;
+      text-align: center;
+      position: relative;
+      img{
+        width:80%;
+      }
+      /*分页*/
+      .pagination{
+        position:absolute;
+        box-shadow: 0 0.182em 0.55em 1px rgba(0,0,0,.1);
+        border-radius: 10px;
+        font-size:14px;
+        height:25px;
+        line-height:25px;
+        right:10px;
+        bottom:10px;
+        padding:0px 10px;
+        width:30px;
+        text-align:center;
+        span.current{
+          color: #333;
+        }
+        span.total{
+          color: #888;
+        }
+      }
+    }
+    /*信息-标题、价格、吊牌价*/
+    .g_message{
+      position: relative;
+      font-size: 15px;
+      line-height: 20px;
+      padding: 8px 10px;
+      background: #fff;
+      margin-top: 1px;
+      p.points{
+        margin-bottom: 8px;
+        font-size: 12px;
+        color: #5e5e5e;
+        overflow: hidden;
+      }
+      .price_msg{
+        .row{
+          line-height: 22px;
+          font-size: 13px;
+          color: #666;
+          span.title{
+            min-width: 50px;
+            display: inline-block;
+            color:#333;
+          }
+          span.tag_price{
+            text-decoration: line-through;
+          }
+          span.sale_price{
+            color: #e31436;
+            font-weight: bold;
+            font-size:22px;
+          }
+        }
+        .row.tips{
+          color:#888;
+        }
+      }
+    }
+  }
+  /*商品选购信息*/
+  #proSKU{
+    background: #fff;
+    margin-top:5px;
+    padding:0px 10px;
+    .row{
+      display: flex;
+      display: -webkit-flex;
+      align-items: center;
+      line-height: 50px;
+      font-size: 14px;
+      color: #666;
+      .item{
+        margin-right:10px;
+        .detail{
+          color: #333;
+          font-weight: bold;
+        }
+      }
+    }
+    .row:first-child{
+      border-bottom:1px solid #ddd;
+    }
+  }
+  /*保障服务*/
+  #service{
+    background: #fff;
+    margin-top: 5px;
+    padding: 0px 10px;
+    margin-bottom: 120px;
+    .row{
+      display: flex;
+      display: -webkit-flex;
+      align-items: center;
+      line-height: 50px;
+      font-size: 14px;
+      color: #666;
+      .title{
+        margin-right:10px;
+      }
+      .content{
+        span.item{
+          display: inline-block;
+          line-height: 20px;
+          padding: 0px 10px;
+          border-color: #ca151e;
+          color: #ca151e;
+          border: 1px solid;
+          border-radius:3px;
+          font-size: 12px;
+        }
+      }
+    }
+  }
+  /*购买商品*/
+  #goodsBuy{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    z-index: 99;
+    .address{
+      height: 36px;
+      background-color: #faede5;
+      padding: 0 10px;
+      line-height: 36px;
+      font-size:13px;
+      color:#333;
+      overflow: hidden;
+    }
+    .buy_btn{
+      diaplay:fixed;
+      display: -webkit-flex;
+      height:50px;
+      align-items: center;
+      justify-content: flex-end;
+      background: #fff;
+      padding: 0px 0px 0px 10px;
+      .buy_title{
+        font-size: 14px;
+        color:#333;
+      }
+      .total_price{
+        color: #ca141d;
+        font-weight: bold;
+        font-size:18px;
+        padding:0px 10px;
+      }
+      .buy_now{
+        background-color: #ca151e;
+        color: #fff;
+        padding:0px 15px;
+        background-color: #ca151e;
+        color: #fff;
+        padding: 0px 15px;
+        line-height: 50px;
+        font-size: 16px;
+      }
+    }
+  }
+  /*公共*/
+  h4,p{
+    margin:0px;
+  }
+  span.dark_red{
+    color: #e31436;
+    font-weight: bold;
+  }
+  span.dark{
+    font-weight: bold;
+    color: #333;
+  }
+}

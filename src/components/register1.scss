@@ -1,0 +1,104 @@
+#register1{
+  .actionbar{
+    padding: 15px 16px;
+    color: #000;
+    font-size: 18px;
+    text-align: center;
+    border-bottom: 2px solid rgba(0,0,0,0.1);
+  }
+  #agreement{
+    overflow-y: auto;
+    .chooseCountry{
+      position: relative;
+      margin: 9px 16px;
+      .node-intro{
+        color: #999;
+        line-height: 16px;
+        margin-top: 16px;
+        .DFVersion-slideDiv{
+          overflow: scroll;
+          .DFVersion-EMUI6{
+            font-size: 15px;
+            color: #000000;
+            line-height: 1.5;
+          }
+          .DFVersion-item-EMUI6{
+            font-size: 13px;
+            color: #000000;
+            line-height: 1.5;
+            i.DFVersion-item-point{
+              display: inline-block;
+              font-size: 25px;
+              margin-top: -15px;
+              vertical-align: middle;
+              text-align: center;
+              color: #000000;
+            }
+            b.DFVersion-attentionTip{
+              font-weight: bold;
+            }
+          }
+        }
+        .DFVersion-item-EMUI6{
+          font-size: 13px;
+          color: #000000;
+          line-height: 1.5;
+          .DFVersion-link-EMUI6{
+            font-family: medium;
+            font-size: 13px;
+            color: #007dff!important;
+            line-height: 1.5;
+          }
+        }
+        .marginTop8{
+          margin-top: 8px;
+        }
+        .DFVersion-marginFix{
+          margin: 16px 0;
+        }
+      }
+    }
+  }
+  #btnArea{
+    .rightBtn{
+      width: 50%;
+    }
+    .subRightBtn{
+      margin-left: 6px;
+    }
+    .btn-EMUI5-2{
+      padding: 11.5px;
+      font-size: 15px;
+      display: block;
+      text-align: center;
+      border: 1px solid rgba(0,0,0,0.1);
+      color: #007dff;
+      background-color: #f7f7f7;
+      border-radius: 50px;
+      line-height: 1;
+    }
+    .leftBtn{
+      display: block;
+      width: 50%;
+    }
+    .r{
+      float: right;
+    }
+  }
+  .btnArea2{
+    width: 90%;
+    margin: 0 auto;
+    position: absolute;
+    left: 16px;
+    right: 16px;
+    bottom: 0px;
+  }
+  .pro-btns{
+    padding: 16px 0;
+  }
+  .body-EMUI5{
+    background: #FCFCFC;
+    max-width: 530px;
+    margin: 0 auto;
+  }
+}

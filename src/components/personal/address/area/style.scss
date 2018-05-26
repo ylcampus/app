@@ -1,0 +1,47 @@
+/*学校选择*/
+#Area{
+  /*页签*/
+  #tabs{
+    margin-top:55px;
+    font-size: 14px;
+    color:#333;
+    .area{
+      border-bottom: 1px solid #f0f0f0;
+      height: 50px;
+      line-height: 50px;
+      background-color: #f7f7f7;
+      span.item{
+        margin: 0 15px;
+        display: inline-block;
+        height: 49px;
+        max-width: 60px;
+        vertical-align: top;
+      }
+      span.highlight{
+        color: #e31436;
+      }
+      span.active{
+        border-bottom: 2px solid #e31436;
+      }
+    }
+    .list{
+      background: #fff;
+      .row{
+        padding:0px 15px;
+        height:50px;
+        display: flex;
+        display: -webkit-flex;
+        align-items: center;
+        justify-content: space-between;
+        border-bottom: 1px solid #f0f0f0;
+      }
+      .row.selected{
+        color: #e31436;
+      }
+    }
+  }
+  /*公共*/
+  section{
+    margin-bottom: 5px;
+  }
+}

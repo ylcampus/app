@@ -1,0 +1,118 @@
+/*订单列表*/
+#Order{
+  /*订单列表*/
+  #orderList{
+    margin-top:50px;
+    border-top:1px solid #ddd;
+    .row{
+      background-color: #fff;
+      padding: 0 15px;
+      margin-bottom: 5px;
+      color: #333;
+      header.order_msg{
+        display: flex;
+        display: -webkit-flex;
+        align-items: center;
+        justify-content: space-between;
+        height:34px;
+        font-size: 14px;
+        .order_no{
+          color:#333;
+        }
+        .order_time{
+          color:#999;
+        }
+      }
+      .goods_msg{
+        padding: 8px 0px;
+        display: flex;
+        display: -webkit-flex;
+        justify-content: space-between;
+        border-top: 1px solid #ddd;
+        border-bottom: 1px solid #ddd;
+        .g_img{
+          width: 90px;
+          margin-right: 5px;
+          img{
+            width:100%;
+          }
+        }
+        .g_msg{
+          width:100%;
+          .pro_name{
+            font-size: 16px;
+            color:#333;
+          }
+          .pro_price_number{
+            display: flex;
+            display: -webkit-flex;
+            justify-content: space-between;
+            height: 30px;
+            align-items: center;
+            font-size: 15px;
+            .number{
+              font-size: 14px;
+              color:#666;
+            }
+          }
+        }
+      }
+      .footer{
+        display: flex;
+        height: 60px;
+        justify-content: space-between;
+        align-items: center;
+        padding: 5px 0px 15px 0px;
+        .msg{
+          width: 100%;
+          font-size:15px;
+          line-height: 30px;
+          .amonut{
+            span.num{
+              color:#666;
+            }
+          }
+          .status{
+            span.status_detail{
+              color: #ca151e;
+            }
+          }
+        }
+        .opa{
+          width: 100px;
+          text-align: right;
+          .toPay{
+            border: 1px solid #cc0a0d;
+            color: #fff;
+            background-color: #ca151e;
+            border-radius: 12px;
+            width: 60px;
+            display: block;
+            line-height: 22px;
+            text-align: center;
+          }
+        }
+      }
+    }
+  }
+  /*加载更多*/
+  #loadMore{
+    display: flex;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    span.more-loading{
+      font-size: 14px;
+      color: #888;
+      display: inline-block;
+      background: transparent url(../../../../static/main/loading_up.png) scroll no-repeat;
+      background-size: 20px 20px;
+      background-position: center left;
+      padding-left: 25px;
+    }
+  }
+  /*公共*/
+  section{
+    margin-bottom: 5px;
+  }
+}
